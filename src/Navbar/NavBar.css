@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: #0e1e4a ;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#logo_nav {
+    width: 250px;
+    margin : 0 px;
+    padding: 0px;
+    cursor: pointer;
+    transition: filter 0.15s;
+  }
+
+
+  #logo_nav:hover {
+    filter: brightness(0.8);
+  }
+
+#profil_card {
+    margin-right: 10px;
+}
+
+.options ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.options ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0px 10px;
+    padding: 2px 20px;
+    cursor: pointer;
+    color: white;
+    transition: 0.2s;
+    border-bottom: 2px solid white  ;
+}
+
+.options ul li:hover {
+  background-color:white ;
+  border-bottom: 2px solid #0e1e4a   ;
+  color: #0e1e4a;
+  transform: scale(1.1);
+}
+
+.options ul li:active {
+  background-color:aqua ;
+  transform: scale(1);
+}
+
+
+.options ul li h3 {
+  margin-left: 5px;
+  font-size: 1rem;
+  font-family: Catamaran;
+  font-weight: 500;
+}
+
+
+.icon_navbar {
+  font-size: 15px;
+}
+
+
+
+
+

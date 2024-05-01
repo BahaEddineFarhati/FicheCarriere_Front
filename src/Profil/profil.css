@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+body{
+    font-family: catamaran , sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+.profil_content {
+    display: flex;
+        /* Add any other styles you need */
+ }
+
+
+.base_content {
+    position: sticky;
+    top: 0;
+    background-color: #e6e8ec;
+    height: 100vh;
+    padding-right: 25px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+}
+
+#nom {
+    font-size: 25px;
+    font-weight: bolder;
+    margin : 5px 0px;
+}
+
+.det {
+    margin-right: 25px;
+}
+
+
+.text_profil {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom:5px ;
+}
+
+.text_profil span {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.details {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 65%;
+}
+
+.avatar_image {
+    width: 150px;
+    border-radius: 200px;
+    margin-top: 20px;
+    margin-bottom:10px ;
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.custom-table th, .custom-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.custom-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.loading {
+  position: fixed;
+  top: 45%;
+  left: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    border-top-color: #007bff;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .dispo p span {
+    font-weight: 800; 
+    font-size: 18px;
+  }
+
+
+  .h_text {
+    font-weight: 800; 
+    font-size: 16px;
+  }
+
+  .data_block {
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    background-color: #e6e8ec;
+    height: 40px;
+    border-radius: 5px;
+  }
+
+  .data_block h4 {
+    margin-left: 10px;
+    max-width: 1000px;
+  }
+

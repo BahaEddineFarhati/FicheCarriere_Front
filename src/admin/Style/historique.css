@@ -1,0 +1,102 @@
+
+.hist_title{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.custom-table-hist {
+    width: 85%;
+    border-collapse: collapse;
+    margin-left: 7%;
+}
+
+.custom-table-hist th, .custom-table-hist td {
+    padding: 8px;
+    border: 1px solid #ddd;
+
+}
+
+.custom-table-hist th {
+    background-color: #0e1e4a;
+    color: white;
+    text-align: left;
+}
+
+
+.filter-container {
+    margin-bottom: 20px;
+    margin-left: 10%;
+  }
+  
+  .filter-container input[type="text"] {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .filter-container input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+
+
+  .head_hist {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .sup_btn{
+    background-color: #0e1e4a;
+    border-radius: 5px;
+    color: white;
+    height: 40px;
+    width: 60px;
+    font-size: 8px;
+    padding:  0px 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .sup_btn:hover{
+    background-color: #354c8b;
+    scale: 1.1; 
+  }
+
+  .sup_btn:active{
+    background-color: red;
+    scale:  0.9; 
+  }
+
+  .hist_warning {
+    position: fixed;
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    top: 30%;
+    left: 30%;
+    border-radius: 5px;
+  }
+
+  .action_hist {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .action_hist button {
+    background-color: white;
+    border: 0px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }

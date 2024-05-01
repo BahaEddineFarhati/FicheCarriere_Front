@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+
+}
+
+.login-form {
+  width: 60%;
+  height: 80%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Catamaran, sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  margin-left: 5%;
+  font-family: catamaran, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.form-group input {
+  width: 90%;
+  margin-left: 5%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.login_button {
+  width: 92%;
+  margin-left: 5%;
+  margin-top: 25px;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #0e1e4a ;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: catamaran, sans-serif;
+  transition: 0.15s;
+}
+
+.login_button:hover {
+  background-color: #3e4a6e;
+}
+
+
+.error-message {
+  box-sizing: border-box;
+  color: white;
+  font-size: 20px;
+  font-family: catamaran, sans-serif;
+  font-weight: 800;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: red;
+  width: 93%;
+  margin-left: 5%;
+  padding: 15px;
+}

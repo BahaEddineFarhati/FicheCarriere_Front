@@ -1,0 +1,109 @@
+[
+    {
+        "id": 0,
+        "matricule": "Stg027",
+        "nom": "Farhati",
+        "prenom": "BahaEddine",
+        "image": "/src/images/baha.png",
+        "email": "bahaeddine.farhati1@gmail.com",
+        "dateDeNaissance": "2003-02-10T09:43:57.000+00:00",
+        "adresse": "Mhamdia",
+        "responsabilite": null,
+        "recompenceEtReconnaissance": null,
+        "disponibilitePourDesMissionALEtranger": false,
+        "disponibilitePourDesChangementsDePoste": false,
+        "disponibilitePourDesDeplacements": false,
+        "fonctions": [],
+        "projets": [],
+        "formationUniversitaires": [],
+        "departement": {
+            "id": 1,
+            "abreviation": "IT",
+            "nom": "Information System"
+        },
+        "grades": [],
+        "conferences": []
+    },
+    {
+        "id": 2,
+        "matricule": "AZ011",
+        "nom": "FARHATI",
+        "prenom": "FARHATI",
+        "image": "qsd",
+        "email": "qsd",
+        "dateDeNaissance": "2024-03-05T11:47:14.000+00:00",
+        "adresse": "ben arous",
+        "responsabilite": null,
+        "recompenceEtReconnaissance": null,
+        "disponibilitePourDesMissionALEtranger": true,
+        "disponibilitePourDesChangementsDePoste": true,
+        "disponibilitePourDesDeplacements": false,
+        "fonctions": [],
+        "projets": [],
+        "formationUniversitaires": [],
+        "departement": {
+            "id": 1,
+            "abreviation": "IT",
+            "nom": "Information System"
+        },
+        "grades": [],
+        "username": "baha",
+        "password": "$2a$12$Rbm.NnxZbQG9wIncCBljbuk5O2J.nOsWwccBvC2DpiHy2u.1QkIRu",
+        "role": {
+            "id": 1,
+            "nom": "RH"
+        },
+        "conferences": []
+    },
+    { "id": 3, "matricule": "EMP003", "nom": "Smith", "prenom": "John", "image": "/src/images/john.png", "email": "john.smith@example.com", "dateDeNaissance": "1990-05-15T08:00:00.000+00:00", "adresse": "New York", "responsabilite": null, "recompenceEtReconnaissance": null, "disponibilitePourDesMissionALEtranger": true, "disponibilitePourDesChangementsDePoste": true, "disponibilitePourDesDeplacements": true, "fonctions": [], "projets": [], "formationUniversitaires": [], "departement": { "id": 2, "abreviation": "HR", "nom": "Human Resources" }, "grades": [], "conferences": [] },
+    {
+        "id": 4,
+        "matricule": "EMP004",
+        "nom": "Johnson",
+        "prenom": "Emily",
+        "image": "/src/images/emily.png",
+        "email": "emily.johnson@example.com",
+        "dateDeNaissance": "1985-09-20T10:30:00.000+00:00",
+        "adresse": "Los Angeles",
+        "responsabilite": null,
+        "recompenceEtReconnaissance": null,
+        "disponibilitePourDesMissionALEtranger": true,
+        "disponibilitePourDesChangementsDePoste": false,
+        "disponibilitePourDesDeplacements": true,
+        "fonctions": [],
+        "projets": [],
+        "formationUniversitaires": [],
+        "departement": {
+            "id": 3,
+            "abreviation": "MKT",
+            "nom": "Marketing"
+        },
+        "grades": [],
+        "conferences": []
+    },
+    {
+        "id": 5,
+        "matricule": "EMP005",
+        "nom": "Garcia",
+        "prenom": "Maria",
+        "image": "/src/images/maria.png",
+        "email": "maria.garcia@example.com",
+        "dateDeNaissance": "1992-07-12T09:15:00.000+00:00",
+        "adresse": "Madrid",
+        "responsabilite": null,
+        "recompenceEtReconnaissance": null,
+        "disponibilitePourDesMissionALEtranger": false,
+        "disponibilitePourDesChangementsDePoste": true,
+        "disponibilitePourDesDeplacements": true,
+        "fonctions": [],
+        "projets": [],
+        "formationUniversitaires": [],
+        "departement": {
+            "id": 4,
+            "abreviation": "FIN",
+            "nom": "Finance"
+        },
+        "grades": [],
+        "conferences": []
+    }
+]

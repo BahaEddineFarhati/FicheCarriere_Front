@@ -57,7 +57,6 @@ function Dashboard() {
       </div>)
     }
 
-    console.log(employeesData);
 
     const functionCounts = {};
     const departmentCounts = {};
